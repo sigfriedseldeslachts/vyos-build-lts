@@ -9,6 +9,7 @@ on:
 jobs:
   build:
 
+    permissions: write-all
     runs-on: ubuntu-latest
     container: 
       # For VyOS 1.2 (crux) use vyos/vyos-build:crux
